@@ -1,5 +1,5 @@
 export type WeatherData = {
-  "location": {
+  "location"?: {
     "name": string;
     "region": string;
     "country": string;

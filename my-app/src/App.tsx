@@ -1,18 +1,11 @@
-import React from 'react';
-import {AppBar, Toolbar} from "@mui/material";
-import Geolocation from "./components/geolocaton";
+import { Box } from "@mui/material";
+import Header from "./components/header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <AppBar>
-           <Toolbar>
-               <Geolocation />
-           </Toolbar>
-       </AppBar>
-      </header>
-    </div>
+    <Box>
+      <Header />
+    </Box>
   );
 }
 
