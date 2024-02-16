@@ -1,5 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { WeatherData } from "../../api/types";
+import { WeatherData } from "../api/types";
+import { WeatherAPI } from "../api/weatherApi";
 
 interface IState {
   weatherCurrent: WeatherData | null;
@@ -23,6 +24,17 @@ const weatherSlice = createSlice({
       ...state,
       weatherForecast: action.payload,
     }),
+  },
+  extraReducers(builder) {
+    builder.addMatcher(
+      WeatherAPI.endpoints.getWeatherByLocation.matchFulfilled,
+      (state, action) => {
+        return {
+          ...state,
+          weatherForecast: action.payload,
+        };
+      }
+    );
   },
 });
 
