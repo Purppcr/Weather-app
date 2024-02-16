@@ -40,14 +40,3 @@ export type WeatherData = {
   }
 }
 
-export type ExtendedForecastData = {
-  day: string;
-  temp: {
-    temp_min: number;
-    temp_max: number;
-  };
-  weather: {
-    id: number;
-    main: string;
-  };
-}
