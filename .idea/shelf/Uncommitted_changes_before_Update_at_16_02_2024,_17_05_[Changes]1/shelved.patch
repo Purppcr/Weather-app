@@ -1,0 +1,52 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5cc2d965-01a6-45ec-b258-e0ed0f082921\" name=\"Changes\" comment=\"init\">\n      <change afterPath=\"$PROJECT_DIR$/my-app/src/store/api/currentWeatherApi.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/my-app/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/my-app/package-lock.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/my-app/src/api/Weather.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/my-app/src/api/Weather.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/my-app/src/api/types.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/my-app/src/api/types.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/my-app/src/components/header/index.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/my-app/src/components/header/index.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/my-app/src/store/store.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/my-app/src/store/store.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/my-app/yarn.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/my-app/yarn.lock\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2cM9aUz97EjPMwjKmKeTpLWAYxI\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/DABukatin/IdeaProjects/Weather-app-2/my-app/src/api\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"npm.start.executor\": \"Run\",\n    \"settings.editor.selected.configurable\": \"configurable.group.tools\",\n    \"ts.external.directory.path\": \"/Users/DABukatin/IdeaProjects/Weather-app-2/my-app/node_modules/typescript/lib\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/my-app/src/api\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/my-app/src/store/api\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"start\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/my-app/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"npm.start\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5cc2d965-01a6-45ec-b258-e0ed0f082921\" name=\"Changes\" comment=\"\" />\n      <created>1707910647639</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1707910647639</updated>\n      <workItem from=\"1707910648670\" duration=\"1017000\" />\n      <workItem from=\"1707911707243\" duration=\"3018000\" />\n      <workItem from=\"1707977653840\" duration=\"15084000\" />\n      <workItem from=\"1708065177122\" duration=\"5491000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"init\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707911325888</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707911325888</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"init\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707911481998</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707911481998</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"init\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1708009816005</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1708009816005</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"init\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"init\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,14 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5cc2d965-01a6-45ec-b258-e0ed0f082921" name="Changes" comment="init">
+-      <change afterPath="$PROJECT_DIR$/my-app/src/store/api/currentWeatherApi.tsx" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/my-app/src/api/Weather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/api/Weather.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/my-app/src/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/api/types.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/my-app/src/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/header/index.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/my-app/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/store.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/my-app/src/store/api/currentWeatherApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/api/currentWeatherApi.tsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -88,7 +82,7 @@
+       <workItem from="1707910648670" duration="1017000" />
+       <workItem from="1707911707243" duration="3018000" />
+       <workItem from="1707977653840" duration="15084000" />
+-      <workItem from="1708065177122" duration="5491000" />
++      <workItem from="1708065177122" duration="9226000" />
+     </task>
+     <task id="LOCAL-00001" summary="init">
+       <option name="closed" value="true" />
+@@ -114,7 +108,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1708009816005</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="init">
++      <option name="closed" value="true" />
++      <created>1708080207171</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1708080207171</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

@@ -1,15 +1,14 @@
-import { AppBar, Toolbar } from "@mui/material";
+import {AppBar, Toolbar, Typography} from "@mui/material";
 import Geolocation from "../geolocaton";
-import { useGetWeatherByLocationQuery } from "../../store/api/weatherApi";
+import {useGetWeatherByLocationQuery} from "../../store/api/weatherApi";
 
 export default function Header() {
-  const { data, error, isLoading } = useGetWeatherByLocationQuery("Moscow");
-  console.log(data, error, isLoading);
-  return (
-    <AppBar>
-      <Toolbar>
-        <Geolocation />
-      </Toolbar>
-    </AppBar>
-  );
+    return (
+        <AppBar position='sticky'>
+            <Toolbar>
+                <Geolocation/>
+                <Typography  sx={{margin: 'auto', fontSize: '35px'}}> Weather App </Typography>
+            </Toolbar>
+        </AppBar>
+    );
 }

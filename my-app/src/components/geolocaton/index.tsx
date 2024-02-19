@@ -44,7 +44,7 @@ export default function Geolocation() {
               <p>Долгота: {userLocation.longitude}</p>
             </div>
           )}
-          {isLoading && <Typography>Идет загрузка</Typography>}
+          {isLoading && <Typography>Ищем местоположение</Typography>}
         </>
       )}
     </>

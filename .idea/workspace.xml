@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cc2d965-01a6-45ec-b258-e0ed0f082921" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/my-app/src/store/api/currentWeatherApi.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Weather/CurrentWeather.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/store/slices/currentWeatherSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/api/Weather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/api/Weather.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/api/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/geolocaton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/geolocaton/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/store.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/store/api/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/api/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/store/api/weatherApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/api/weatherApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/store/slices/WeatherSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/DABukatin/IdeaProjects/Weather-app-2/my-app/src/api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "ts.external.directory.path": "/Users/DABukatin/IdeaProjects/Weather-app-2/my-app/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/DABukatin/IdeaProjects/Weather-app-2/my-app/src/api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/DABukatin/IdeaProjects/Weather-app-2/my-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src/api" />
@@ -88,7 +94,10 @@
       <workItem from="1707910648670" duration="1017000" />
       <workItem from="1707911707243" duration="3018000" />
       <workItem from="1707977653840" duration="15084000" />
-      <workItem from="1708065177122" duration="5491000" />
+      <workItem from="1708065177122" duration="10192000" />
+      <workItem from="1708324285654" duration="4302000" />
+      <workItem from="1708334828262" duration="149000" />
+      <workItem from="1708334990519" duration="9403000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -114,11 +123,30 @@
       <option name="project" value="LOCAL" />
       <updated>1708009816005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <option name="closed" value="true" />
+      <created>1708080207171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708080207171</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
