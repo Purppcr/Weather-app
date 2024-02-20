@@ -13,7 +13,7 @@ function CurrentWeather() {
     const weather = useSelector((state: RootState) => state.current);
     console.log(weather)
 
-    return (<Card sx={{mt: 20, mr: 70, ml: 70, pl: 10, pr: 10, padding: '2em' }}>
+    return (<Card sx={{mt: 30, mr: 70, ml: 70, padding: '2em' }}>
             <Typography sx={{textAlign: 'center', fontSize: '45px', fontWeight: "bold", color: '#3D9AD1'}}>{weather?.location?.name}</Typography>
             <Grid container
                   spacing={1}
