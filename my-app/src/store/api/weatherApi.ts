@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { WeatherData } from "./types";
+import { WeatherData, getWeatherByLocationRequest } from "./types";
 
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
@@ -8,9 +8,11 @@ export const WeatherAPI = createApi({
   reducerPath: "weatherApi",
   baseQuery: fetchBaseQuery({ baseUrl: "http://api.weatherapi.com/v1" }),
   endpoints: (builder) => ({
-    getWeatherByLocation: builder.query<any, string>({
-      query: (location: string) =>
-        `/current.json?key=${API_KEY}&q=${location}&aqi=no`,
+    getWeatherByLocation: builder.query<any, getWeatherByLocationRequest>({
+      query: (location: getWeatherByLocationRequest) =>
+        `/current.json?key=${API_KEY}&q=${
+          location.latitude + "," + location.longitude
+        }&aqi=no`,
     }),
   }),
 });

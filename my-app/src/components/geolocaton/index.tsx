@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IconButton, Typography } from "@mui/material";
 import PlaceIcon from "@mui/icons-material/Place.js";
+import { useGetWeatherByLocationQuery } from "../../store/api/weatherApi";
+import { skipToken } from "@reduxjs/toolkit/query";
 
 export default function Geolocation() {
   const [isLoading, setIsLoading] = useState(false);
@@ -29,21 +31,17 @@ export default function Geolocation() {
     } else setError("Геолокация не поддерживается в этом браузере");
   };
 
+  useGetWeatherByLocationQuery(userLocation ? userLocation : skipToken);
+
   return (
     <>
       {error ? (
         <Typography color="red">{error}</Typography>
       ) : (
         <>
-          <IconButton onClick={getUserLocation}>
+          <IconButton onClick={getUserLocation} disabled={isLoading}>
             <PlaceIcon />
           </IconButton>
-          {userLocation && (
-            <div>
-              <p>Широта: {userLocation.latitude}</p>
-              <p>Долгота: {userLocation.longitude}</p>
-            </div>
-          )}
           {isLoading && <Typography>Ищем местоположение</Typography>}
         </>
       )}
