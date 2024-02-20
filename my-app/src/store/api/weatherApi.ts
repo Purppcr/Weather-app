@@ -8,7 +8,7 @@ export const WeatherAPI = createApi({
   reducerPath: "weatherApi",
   baseQuery: fetchBaseQuery({ baseUrl: "http://api.weatherapi.com/v1" }),
   endpoints: (builder) => ({
-    getWeatherByLocation: builder.query<WeatherData, string>({
+    getWeatherByLocation: builder.query<any, string>({
       query: (location: string) =>
         `/current.json?key=${API_KEY}&q=${location}&aqi=no`,
     }),

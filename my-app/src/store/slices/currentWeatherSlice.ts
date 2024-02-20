@@ -13,7 +13,6 @@ const currentWeatherSlice = createSlice({
     builder.addMatcher(
       WeatherAPI.endpoints.getWeatherByLocation.matchFulfilled,
       (state, action) => {
-
         return action.payload
       }
     );
